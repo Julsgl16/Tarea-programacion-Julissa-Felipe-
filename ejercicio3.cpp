@@ -12,4 +12,9 @@ for (int i = 0; i < cantidad; i++) {
 }
 for (int i = 0; i < cantidad; i++) {
     inversos[i] = numeros[i] * -1;
+ }
+ for (int i = 0; i < cantidad; i++) {
+    cout << "Inverso de " << numeros[i] << " es: " << inversos[i] << "\n";
+}
+return 0;
 }
